@@ -1,15 +1,111 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edward Wang's Personal Website</title>
+    <!-- 添加简单的 CSS 样式 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #4CAF50;
+            padding: 10px 20px;
+            border: 2px solid #4CAF50;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            background: #333;
+            color: white;
+        }
+
+        a {
+            color: #4CAF50;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Edward Wang's Personal Website</h1>
-    <p>This is my GitHub Pages site!</p>
-    
-    <!-- 添加指向简历的链接 -->
-    <p>
-        <a href="Wang Zuochen.pdf" target="_blank">Click here to view my Resume</a>
-    </p>
+    <!-- 页头部分 -->
+    <header>
+        <h1>Welcome to Edward Wang's Website</h1>
+        <p>Your hub for all my professional and personal content</p>
+    </header>
+
+    <!-- 导航栏 -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#resume">My Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- 关于部分 -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Edward Wang, an aspiring developer with a passion for data analytics and AI. Welcome to my personal website, where you can learn more about my professional journey and interests.</p>
+        </section>
+
+        <!-- 简历部分 -->
+        <section id="resume">
+            <h2>My Resume</h2>
+            <p>Feel free to check out my resume below:</p>
+            <p><a href="Wang Zuochen.pdf" target="_blank">View My Resume</a></p>
+        </section>
+
+        <!-- 联系部分 -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>If you'd like to get in touch, please email me at: <a href="mailto:edward@example.com">edward@example.com</a></p>
+        </section>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2025 Edward Wang. All rights reserved.</p>
+    </footer>
 </body>
 </html>
